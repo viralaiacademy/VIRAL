@@ -12,7 +12,7 @@
 <!-- ⚠️ Remplace par l'URL de ton image de couverture (1200x630px) et l'URL finale de la page -->
 <meta property="og:image" content="https://tondomaine.com/og-image.jpg">
 <link rel="canonical" href="https://tondomaine.com/viral-ia-academy">
-<meta name="theme-color" content="#0E7490">
+<meta name="theme-color" content="#C2540A">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -31,13 +31,13 @@
 </script>
 <style>
 :root {
-  --p: #0E7490; --pl: #22D3EE; --pd: #083344;
-  --pg: linear-gradient(135deg, #0E7490, #06B6D4 55%, #22D3EE);
+  --p: #C2540A; --pl: #FDBA6B; --pd: #3A1B04;
+  --pg: linear-gradient(135deg, #C2540A, #E8720E 55%, #FDBA6B);
   --s: #E8AF4E; --sl: #F3CE8C; --sd: #B9832A;
   --sg: linear-gradient(135deg, #F3CE8C, #E8AF4E 55%, #B9832A);
   --a: #10B981;
-  --t: #0F2027; --tm: #33474D; --tl: #5C7378; --tmuted: #8FA3A7;
-  --bw: #F6FBFC; --bl: #E8F4F5; --bd: #071B26;
+  --t: #241505; --tm: #4A3218; --tl: #7A6142; --tmuted: #A7906F;
+  --bw: #FFFBF6; --bl: #FDF3E7; --bd: #1A0E05;
   --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-display: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif;
   --r: 10px; --rl: 16px;
@@ -55,8 +55,8 @@ body{font-family:var(--font);color:var(--t);background:var(--bw);line-height:1.5
 .st::after{content:"";display:block;width:46px;height:2px;background:var(--sg);margin:14px auto 0;border-radius:2px}
 .ss{font-size:clamp(0.85rem,1.5vw,1rem);color:var(--tl);text-align:center;max-width:600px;margin:0 auto 32px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 30px;border-radius:8px;font-size:0.88rem;font-weight:700;letter-spacing:0.01em;border:none;cursor:pointer;transition:var(--tr);text-align:center}
-.btn-p{background:var(--pg);color:#fff;box-shadow:0 8px 22px rgba(14,116,144,0.3);border:1px solid rgba(255,255,255,0.08)}
-.btn-p:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(14,116,144,0.4)}
+.btn-p{background:var(--pg);color:#fff;box-shadow:0 8px 22px rgba(194,84,10,0.35);border:1px solid rgba(255,255,255,0.08)}
+.btn-p:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(194,84,10,0.45)}
 .btn-s{background:var(--sg);color:#241705;box-shadow:0 8px 22px rgba(184,131,42,0.35)}
 .btn-s:hover{transform:translateY(-2px)}
 .btn-lg{padding:16px 36px;font-size:1rem}
@@ -64,7 +64,7 @@ body{font-family:var(--font);color:var(--t);background:var(--bw);line-height:1.5
 .btn-pulse{animation:pulse 2s infinite}
 @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(232,175,78,0.5)}70%{box-shadow:0 0 0 12px rgba(232,175,78,0)}100%{box-shadow:0 0 0 0 rgba(232,175,78,0)}}
 .btn-outline{background:transparent;border:1.5px solid var(--p);color:var(--p)}
-.btn-outline:hover{background:rgba(14,116,144,0.08);transform:translateY(-2px)}
+.btn-outline:hover{background:rgba(194,84,10,0.08);transform:translateY(-2px)}
 a:focus-visible,button:focus-visible{outline:3px solid var(--pl);outline-offset:2px;border-radius:6px}
 .skip-link{position:absolute;left:-9999px;top:0;background:var(--p);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;z-index:2000;font-size:0.85rem;font-weight:700}
 .skip-link:focus{left:0}
@@ -76,7 +76,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--pl);outline-offset:
 .fade.ok{opacity:1;transform:translateY(0)}
 
 /* PROMO BAR — reste fixée en haut avec le compte à rebours pendant tout le défilement */
-.promo-bar{position:fixed;top:0;left:0;right:0;z-index:1001;height:var(--promo-h);background:linear-gradient(90deg,#071B26,#0E4A57 50%,#071B26);border-bottom:1px solid rgba(232,175,78,0.25)}
+.promo-bar{position:fixed;top:0;left:0;right:0;z-index:1001;height:var(--promo-h);background:linear-gradient(90deg,#1A0E05,#4A2409 50%,#1A0E05);border-bottom:1px solid rgba(232,175,78,0.25)}
 .promo-inner{height:100%;display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:nowrap;overflow:hidden}
 .promo-text{font-size:0.72rem;color:rgba(255,255,255,0.75);white-space:nowrap;letter-spacing:0.02em}
 .promo-text strong{color:var(--sl)}
@@ -98,7 +98,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--pl);outline-offset:
 
 /* HERO */
 .hero{min-height:90vh;display:flex;align-items:center;background:var(--bd);padding-top:calc(72px + var(--promo-h));position:relative;overflow:hidden}
-.hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse at 20% 50%,rgba(14,116,144,0.28),transparent 60%),radial-gradient(ellipse at 80% 15%,rgba(232,175,78,0.10),transparent 50%)}
+.hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse at 20% 50%,rgba(194,84,10,0.30),transparent 60%),radial-gradient(ellipse at 80% 15%,rgba(232,175,78,0.12),transparent 50%)}
 .hero .container{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
 .hero-c{color:#fff}
 .hero-bdg{display:inline-flex;align-items:center;gap:6px;background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.25);color:var(--sl);padding:6px 14px;border-radius:50px;font-size:0.75rem;font-weight:600;margin-bottom:16px}
@@ -303,7 +303,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--pl);outline-offset:
   .nav-links.open{display:flex}
   .nav-links a{font-size:1.1rem}
   .nav-mb{display:block;position:relative;z-index:1000}
-  .hero{padding-top:60px;min-height:auto}
+  .hero{padding-top:calc(68px + var(--promo-h));min-height:auto}
   .hero h1{font-size:1.4rem}
   .hero-stats{gap:16px;flex-wrap:wrap}
   .hero-card{padding:18px}
